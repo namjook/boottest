@@ -48,7 +48,7 @@ public class SampleMybatisController {
     public void postMethodName(@RequestBody SampleMybatisVo sm) {
         //TODO: process POST request
 
-        System.out.println(sm + "넘어온거뭐냐111222");
+        System.out.println(sm + "피쳐딴거 aaa");
 
         System.out.println(sm.getId() + "아이디");
         System.out.println(sm.getTitle() + "타이틀");
