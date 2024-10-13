@@ -33,7 +33,7 @@ dependencies {
 
 	
 	//이거 feature/bbb
-
+	// 마지막으로 한번더 배포
 	implementation group: 'com.mysql', name: 'mysql-connector-j', version: '9.0.0'
 
 
