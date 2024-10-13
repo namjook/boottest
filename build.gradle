@@ -31,7 +31,7 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.3.4'
 
-	// 피쳐에서 dev로 https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+	// 피쳐에서 dev로 다시테스트  https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
 	implementation group: 'com.mysql', name: 'mysql-connector-j', version: '9.0.0'
 
 
