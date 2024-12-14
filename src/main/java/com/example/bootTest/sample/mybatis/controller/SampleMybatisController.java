@@ -37,7 +37,15 @@ public class SampleMybatisController {
     @ResponseBody
     //public ResponseEntity<?> list() {
         public List<ItemVo> list() {
-        
+
+        System.out.println("11111111111111111111111111111111111");
+
+
+
+
+
+
+
         List<ItemVo> itemList = sampleMybatisService.list();
         //return ResponseEntity.ok().body(sampleMybatisService.list());
 
@@ -65,7 +73,9 @@ public class SampleMybatisController {
     @GetMapping("/list2")
     @ResponseBody
     public List<Map<String, Object>> greet() {
-        
+
+        System.out.println("2222222222222222222222222222222222");
+
         List<Map<String, Object>> dataList = new ArrayList<>();
 
         Map<String, Object> data1 = new HashMap();
